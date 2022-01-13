@@ -1,0 +1,15 @@
+/*dark font color #3d3b44 */
+/* medium color #888699 */
+/* light color #d4d0ee  or RGB 212, 208, 238*/
+
+
+.about-section, .project-section, .skills-section{
+    width: 90%;
+    height: 500px;
+    padding: 25px;
+    margin: 30px auto;
+    border: 3px solid #888699;
+    border-radius: 10px;
+    background-color: rgba(212, 208, 238, 0.8);
+    
+}

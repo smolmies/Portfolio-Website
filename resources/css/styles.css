@@ -1,22 +1,43 @@
+/*dark font color #3d3b44 */
+/* medium color #888699 */
+/* light color #d4d0ee */
+
+
 *{
     font-size: 18px;
+    color: #3d3b44;
+    box-sizing: border-box;
+    text-align: center;
 }
 
 html,
 body {
     height: 100%;
+    width: 100%;
     display: flex;
     flex-direction: column;
+    align-items: center;    
+}
+
+.bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
 }
 header {
     width: 100%;
     height: 100px;
     text-align: center;
     margin: 0 auto 50px;
+    z-index: 3;
 }
 
 h1 {
     font-size: 3rem;
+    letter-spacing: 15px;
     margin: 20px auto;
 }
 
@@ -32,8 +53,10 @@ nav a {
 
 main {
     display: block;
+    width: 95%;
     padding: 20px;
     margin: 50px auto;
+    z-index: 2;
 }
 
 h2 {
@@ -48,12 +71,15 @@ h4{
     font-size: 1.5rem;
 }
 
-h5 {
-    font-size: 1.1rem;
-}
 
 footer {
     width: 100%;
     margin-top: auto;
     text-align: center;
+    z-index: 1;
+}
+
+footer p {
+    font-size: 1.2rem;
+    font-weight: 700;
 }

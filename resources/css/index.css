@@ -23,6 +23,11 @@
     width: 150px;
     border-radius: 50%;
     border: 10px double #888699;
+    transition: all 0.8s linear;
+}
+
+#profile-me:hover {
+    transform: scale(1.15) rotate(360deg);
 }
 
 .about-content {
@@ -45,6 +50,9 @@
         width: 100px;
     }
 
+    .about-content {
+        width: 90%;
+    }
     .about-content p{
         text-align: left;
     }

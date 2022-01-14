@@ -22,7 +22,7 @@
     text-align: left;
 }
 
-#photo-me, #photo-wol {
+#profile-me {
     height: 150px;
     width: 150px;
     border-radius: 50%;
@@ -32,9 +32,12 @@
     color: #9c2434;
     cursor: pointer;
 }
+#ffxiv:hover {
+    text-shadow: 1px 1px #fff;
+}
 
 @media only screen and (max-width: 640px){
-    #photo-me, #photo-wol {
+    #profile-me {
         height: 100px;
         width: 100px;
     }

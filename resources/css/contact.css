@@ -1,7 +1,40 @@
-/* html,
-body {
-    background-image: url(../images/background-horizontal.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+.links img, .email {
+    height: 5rem;
+    width: auto;
+    margin: 15px 30px;
+    z-index: 3;
+    cursor: pointer;
+}
+
+.email-container {
+    height: 0;
+    width: 40%;
+    margin: 0 auto;
+    overflow: hidden;
+    transition: all 0.8s ease-out;
+    text-align: center;
+}
+
+.email-container p{
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
+.view-email{
+    height: 100px;
+    padding: 15px;
+    background-color: rgba(191, 187, 214, 0.9);
+    border: 2px solid #888699;
+    border-radius: 10px;
+}
+
+@media only screen and (max-width: 640px){
+    .links img, .email {
+        height: 3.5rem;
+        margin: 15px 20px;
+    }
+    
+    .email-container{
+        width: 75%;
+    }
+}

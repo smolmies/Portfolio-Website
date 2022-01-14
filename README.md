@@ -17,6 +17,11 @@ In this portfolio i will use some of the techniques i have learned to style the 
 #### View the project:
 The Project can be viewed in action [here](https://smolmies.github.io/Portfolio-Website/)
 
+##### Credit:
++ [Linkedin icons created by riajulislam - Flaticon](https://www.flaticon.com/free-icons/linkedin)
++ [Github icons created by riajulislam - Flaticon](https://www.flaticon.com/free-icons/github)
++ [Mail icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/mail)
+
 *This project is under development*
 
 **Thanks for reading!**

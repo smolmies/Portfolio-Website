@@ -11,6 +11,7 @@
     box-sizing: border-box;
     text-align: center;
     letter-spacing: 1px;
+    line-height: 1.25rem;
 }
 
 html,
@@ -42,7 +43,7 @@ h1 {
     font-family: "Comfortaa", Arial, Helvetica, sans-serif;
     font-size: 3rem;
     letter-spacing: 5px;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 nav {
@@ -125,6 +126,10 @@ footer p {
         font-size: 1rem;
         padding: 5px 10px;
         margin: 0 10px;
+    }
+
+    section p {
+        font-size: 0.9rem;
     }
 
 }

@@ -2,14 +2,40 @@
 /* medium color #888699 */
 /* light color #d4d0ee  or RGB 212, 208, 238*/
 
-
+#welcome {
+    width: 75%;
+    font-size: 1.25rem;
+    letter-spacing: 2px;
+}
 .about-section, .project-section, .skills-section{
     width: 90%;
-    height: 500px;
+    height: fit-content;
     padding: 25px;
     margin: 30px auto;
     border: 3px solid #888699;
     border-radius: 10px;
     background-color: rgba(212, 208, 238, 0.8);
     
+}
+
+.about-content p{
+    text-align: left;
+}
+
+#photo-me, #photo-wol {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+#ffxiv {
+    color: #9c2434;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 640px){
+    #photo-me, #photo-wol {
+        height: 100px;
+        width: 100px;
+    }
 }

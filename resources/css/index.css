@@ -18,14 +18,16 @@
     
 }
 
-.about-content p{
-    text-align: left;
-}
-
 #profile-me {
     height: 150px;
     width: 150px;
     border-radius: 50%;
+    border: 10px double #888699;
+}
+
+.about-content {
+    width: 80%;
+    margin: 0 auto;
 }
 
 #ffxiv {
@@ -33,6 +35,7 @@
     cursor: pointer;
 }
 #ffxiv:hover {
+    color: #b13646;
     text-shadow: 1px 1px #fff;
 }
 
@@ -40,5 +43,9 @@
     #profile-me {
         height: 100px;
         width: 100px;
+    }
+
+    .about-content p{
+        text-align: left;
     }
 }

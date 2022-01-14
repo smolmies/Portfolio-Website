@@ -1,5 +1,5 @@
-const email = document.querySelector(".email");
-const emailContainer = document.querySelector(".email-container");
+const email = document.querySelector("#email-image");
+const emailContainer = document.querySelector("#container-display");
 
 
  function showEmail(){
@@ -9,3 +9,9 @@ const emailContainer = document.querySelector(".email-container");
         emailContainer.classList.add("view-email");
     }
 };
+
+function addEmailEventListener(){
+    email.addEventListener('click', showEmail);
+};
+
+addEmailEventListener();

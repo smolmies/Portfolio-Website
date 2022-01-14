@@ -57,10 +57,15 @@ nav a {
     background-color: #aca8c1;
     border-radius: 10px;
     box-shadow: 2px 2px #737080;
+    transition: all 0.3s linear;
 }
 
 nav a:hover{
     color: #ffffff;
+    background-color: #878496;
+}
+nav a:active {
+    box-shadow: none;
 }
 
 main {
@@ -97,7 +102,7 @@ footer p {
 }
 
 @media only screen and (max-width: 640px){
-    
+
     h1 {
         font-size: 2.5rem;
     }

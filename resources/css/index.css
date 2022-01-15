@@ -35,7 +35,7 @@
     margin: 0 auto;
 }
 
-#ffxiv {
+#ffxiv, .project a {
     color: #9c2434;
     cursor: pointer;
 }
@@ -43,6 +43,44 @@
     color: #b13646;
     text-shadow: 1px 1px #fff;
 }
+
+#ref-project, #meal-project {
+    margin: 0 auto 15px;
+    min-height: 275px;
+    width: 50%;
+    transition: all 1s ease-out;
+    box-shadow: 2px 2px 3px #3d3b44;
+}
+
+#ref-project:hover, #meal-project:hover {
+    transform: scale(2, 2.25);
+}
+
+.project {
+    margin-bottom: 20px;
+    width: 85%;
+    background-color: #aaa6be;
+    border-radius: 10px;
+    padding: 10px;
+    display: inline-flex;
+    flex-direction: column;
+}
+
+.project p {
+    max-width: 80%;
+    margin: 10px auto;
+    text-align: justify;
+}
+
+
+.project a:hover {
+    color: #f2f1fa;
+}
+
+.highlight {
+    color: #f2f1fa;
+}
+
 
 @media only screen and (max-width: 640px){
     #profile-me {
@@ -56,4 +94,22 @@
     .about-content p{
         text-align: left;
     }
+
+    #ref-project {
+        margin: 0 auto 10px;
+        min-height: 125px;
+        width: 75%;
+        transition: all 1s ease-out;
+        box-shadow: 2px 2px 3px #3d3b44;
+    }
+    
+    #ref-project:hover {
+        transform: scale(1.5, 2);
+    }
+
+    .project p {
+        text-align: left;
+        width: 90%;
+    }
+
 }

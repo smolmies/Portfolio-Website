@@ -44,16 +44,16 @@
     text-shadow: 1px 1px #fff;
 }
 
-#ref-project, #meal-project {
+#ref-project, #meal-project, #pension-project {
     margin: 0 auto 15px;
-    min-height: 275px;
+    min-height: 30%;
     width: 50%;
     transition: all 1s ease-out;
     box-shadow: 2px 2px 3px #3d3b44;
 }
 
-#ref-project:hover, #meal-project:hover {
-    transform: scale(2, 2.25);
+#ref-project:hover, #meal-project:hover, #pension-project:hover {
+    transform: scale(1.75) translateY(50px);
 }
 
 .project {
@@ -81,6 +81,34 @@
     color: #f2f1fa;
 }
 
+.skills-content {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.skill-group {
+    padding: 10px;
+    display: inline-flex;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.skill-group progress {
+    width: 300px;
+    height: 20px;
+    margin: 15px auto;
+
+}
+
+label {
+    letter-spacing: 3px;
+    font-weight: 700;
+
+}
+
+
 
 @media only screen and (max-width: 640px){
     #profile-me {
@@ -95,7 +123,7 @@
         text-align: left;
     }
 
-    #ref-project {
+    #ref-project, #meal-project, #pension-project {
         margin: 0 auto 10px;
         min-height: 125px;
         width: 75%;
@@ -103,13 +131,20 @@
         box-shadow: 2px 2px 3px #3d3b44;
     }
     
-    #ref-project:hover {
-        transform: scale(1.5, 2);
+    #ref-project:hover, #meal-project:hover, #pension-project:hover {
+        transform: scale(1);
     }
 
     .project p {
         text-align: left;
         width: 90%;
+    }
+
+    .skills-content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: wrap;
     }
 
 }

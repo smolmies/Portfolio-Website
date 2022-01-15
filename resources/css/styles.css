@@ -116,6 +116,7 @@ footer p {
     h1 {
         font-size: 2.25rem;
         margin-bottom: 15px;
+        line-height: 2.25rem;
     }
 
     h2 {

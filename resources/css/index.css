@@ -147,4 +147,9 @@ label {
         flex-wrap: wrap;
     }
 
+    .skill-group progress {
+        width: 200px;
+        height: 15px;    
+    }
+
 }
